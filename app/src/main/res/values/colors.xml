@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_color">#1F1D2B</color>
+    <color name="orange">#FF7427</color>
+    <color name="yellow">#FFC107</color>
+    <color name="dark_blue">#252836</color>
+    <color name="gris">#65717a</color>
+    <color name="gg">#acb4ba</color>
+    <color name="buttonColor"><shape android:shape="rectangle">
+        <solid android:color="@color/dark_blue"/>
+        <corners android:radius="20dp"/>
+        <stroke android:color="@color/black" android:width="2dp"/>
+    </shape></color>
+</resources>

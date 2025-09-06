@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carte4"
+    android:background="@color/main_color">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/back1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/main_color"
+                android:src="@drawable/baseline_chevron_left_24" />
+
+            <VideoView
+                android:layout_marginStart="20dp"
+                android:id="@id/myVideoView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:text="Titanic"
+                android:textColor="@color/yellow"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:text="Titanic est un film dramatique et romantique réalisé par James Cameron, sorti en 1997. L'histoire se déroule en 1912, lors du voyage inaugural du célèbre paquebot Titanic. Elle raconte la rencontre entre Jack, un jeune artiste sans le sou, et Rose, une femme de la haute société piégée dans un mariage arrangé. Leur amour naissant est bouleversé par la tragédie de la collision du navire avec un iceberg, menant à l'un des naufrages les plus célèbres de l'histoire. Un mélange d'amour, de drame et de survie captivant."
+                android:textColor="#d9dcde" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/main_color"
+                    android:src="@drawable/baseline_person_24"/>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="Principal Actors"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/leo"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/kate"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/billy"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/kathy"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

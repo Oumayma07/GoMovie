@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carte3"
+    android:background="@color/main_color">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/back1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/main_color"
+                android:src="@drawable/baseline_chevron_left_24" />
+
+            <VideoView
+                android:layout_marginStart="20dp"
+                android:id="@id/myVideoView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:text="Wonka"
+                android:textColor="@color/yellow"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:text="Wonka est un film d'aventure fantastique qui explore les origines du célèbre chocolatier Willy Wonka, joué par Timothée Chalamet. Situé avant les événements de Charlie et la Chocolaterie, le film suit le jeune Wonka dans sa quête pour réaliser ses rêves, tout en affrontant des défis magiques, des rivaux excentriques et des aventures sucrées. C'est une histoire remplie de créativité, d'humour et de chansons captivantes, offrant un aperçu des débuts de son monde extraordinaire."
+                android:textColor="#d9dcde" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/main_color"
+                    android:src="@drawable/baseline_person_24"/>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="Principal Actors"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/rowan"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/chamalt"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/hugh"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/olivia"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

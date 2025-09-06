@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".disney3"
+    android:background="@color/main_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/dark_blue"
+            android:src="@drawable/baseline_chevron_left_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/myVideoView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="COCO"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:text="
+Coco is a 2017 Disney-Pixar animated film that follows the story of Miguel, a young boy from a family that bans music due to an ancestor's painful history with it. Despite this, Miguel dreams of becoming a musician like his idol, Ernesto de la Cruz. On Día de los Muertos (the Day of the Dead), Miguel accidentally enters the Land of the Dead, where he meets his ancestors, including his great-great-grandmother, Mama Imelda. As Miguel embarks on a journey to uncover the truth about his family’s past, he learns the importance of remembering loved ones and honoring family traditions. The film celebrates the themes of family, memory, and pursuing one’s dreams."
+            android:textColor="#d9dcde" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/time1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="15h30"
+                android:background="@drawable/buttoncolor"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/time2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="17h30"
+                android:background="@drawable/buttoncolor"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/time3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="20h30"
+                android:background="@drawable/buttoncolor"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/res1"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/orange_button_background"
+            android:text="Add To card"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

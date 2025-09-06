@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoMovie"
+        tools:targetApi="31"
+
+        >
+
+
+        <activity
+            android:name=".drama6"
+            android:exported="false" />
+        <activity
+            android:name=".drama5"
+            android:exported="false" />
+        <activity
+            android:name=".drama4"
+            android:exported="false" />
+        <activity
+            android:name=".drama3"
+            android:exported="false" />
+        <activity
+            android:name=".drama2"
+            android:exported="false" />
+        <activity
+            android:name=".drama1"
+            android:exported="false" />
+        <activity
+            android:name=".disney6"
+            android:exported="false" />
+        <activity
+            android:name=".disney5"
+            android:exported="false" />
+        <activity
+            android:name=".disney4"
+            android:exported="false" />
+        <activity
+            android:name=".disney3"
+            android:exported="false" />
+        <activity
+            android:name=".disney2"
+            android:exported="false" />
+        <activity
+            android:name=".disney1"
+            android:exported="false" />
+        <activity
+            android:name=".comedy5"
+            android:exported="false" />
+        <activity
+            android:name=".comedy6"
+            android:exported="false" />
+        <activity
+            android:name=".comedy4"
+            android:exported="false" />
+        <activity
+            android:name=".comedy3"
+            android:exported="false" />
+        <activity
+            android:name=".comedy2"
+            android:exported="false" />
+        <activity
+            android:name=".comedy1"
+            android:exported="false" />
+        <activity
+            android:name=".action6"
+            android:exported="false" />
+        <activity
+            android:name=".action5"
+            android:exported="false" />
+        <activity
+            android:name=".action4"
+            android:exported="false" />
+        <activity
+            android:name=".action3"
+            android:exported="false" />
+        <activity
+            android:name=".action2"
+            android:exported="false" />
+        <activity
+            android:name=".action1"
+            android:exported="false" />
+        <activity
+            android:name=".carte5"
+            android:exported="false" />
+        <activity
+            android:name=".carte4"
+            android:exported="false" />
+        <activity
+            android:name=".carte3"
+            android:exported="false" />
+        <activity
+            android:name=".carte2"
+            android:exported="false" />
+        <activity
+            android:name=".carte1"
+            android:exported="false" />
+        <activity
+            android:name=".paiement"
+            android:exported="false" />
+        <activity
+            android:name=".cart4"
+            android:exported="false" />
+        <activity
+            android:name=".cart3"
+            android:exported="false" />
+        <activity
+            android:name=".cart2"
+            android:exported="false" />
+        <activity
+            android:name=".cart1"
+            android:exported="false" />
+        <activity
+            android:name=".explorer"
+            android:exported="false" />
+        <activity
+            android:name=".favoris"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".drama"
+            android:exported="false" />
+        <activity
+            android:name=".disney"
+            android:exported="false" />
+        <activity
+            android:name=".comedie"
+            android:exported="false" />
+        <activity
+            android:name=".action"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".forget_pass"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

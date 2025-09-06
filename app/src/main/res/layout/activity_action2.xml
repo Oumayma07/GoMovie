@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".action2"
+    android:background="@color/main_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <ImageButton
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/dark_blue"
+            android:src="@drawable/baseline_chevron_left_24"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical">
+        <VideoView
+            android:id="@+id/myVideoView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Wrath of The Titans"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Wrath of the Titans is a 2012 action-fantasy film and a sequel to Clash of the Titans. It follows Perseus, the demigod son of Zeus, as he is drawn back into the battle between gods and Titans. A decade after defeating the Kraken, Perseus is living a quiet life as a fisherman and single father. However, the weakening power of the gods has allowed the Titans, led by the powerful Kronos, to rise.
+
+When Zeus is betrayed by his own son, Ares, and brother, Hades, and captured by Kronos, Perseus must embark on a dangerous journey to rescue Zeus and save humanity. Alongside allies like Queen Andromeda and the demigod Agenor, Perseus ventures into the underworld to confront Kronos and stop the apocalypse. The film is packed with intense battles, mythical creatures, and stunning visuals, culminating in a heroic showdown."
+            android:textColor="#d9dcde"
+            android:layout_marginStart="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/time1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="15h30"
+                android:background="@drawable/buttoncolor"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/time2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="17h30"
+                android:background="@drawable/buttoncolor"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/time3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="20h30"
+                android:background="@drawable/buttoncolor"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/res2"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center"
+            android:text="Add To card"
+            android:background="@drawable/orange_button_background"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

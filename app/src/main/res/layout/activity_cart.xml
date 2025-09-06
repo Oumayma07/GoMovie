@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cart"
+    android:background="@color/main_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <ImageButton
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/dark_blue"
+            android:src="@drawable/baseline_chevron_left_24"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Cart"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Cart List"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+        <ListView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/listview"
+            android:background="#b2b6b9"
+            android:cacheColorHint="@color/white"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnpay"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/orange_button_background"
+            android:text="Reserver"
+            android:textColor="@color/white"
+
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

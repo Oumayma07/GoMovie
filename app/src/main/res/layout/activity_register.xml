@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@color/main_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Now"
+                android:textSize="50sp"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="32dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginEnd="32dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="UserName"
+                android:textColor="@color/white"
+                android:textColorHint="#9F9A9A"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="128dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Email"
+                android:textColor="@color/white"
+                android:textColorHint="#9F9A9A"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/psw"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:textColorHint="#9F9A9A"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:textAlignment="center" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/orange_button_background"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
